@@ -1,0 +1,54 @@
+2022-08-21 10:17:40 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (16868), thread 'MainThread' (5840):
+Traceback (most recent call last):
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 65, in <module>
+    main()
+    └ <function main at 0x000001B4ADA04D30>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 46, in main
+    res = model(frame)
+          │     └ array([[[225, 221, 215],
+          │               [225, 221, 215],
+          │               [225, 221, 215],
+          │               ...,
+          │               [210, 213, 220],
+          │               [210...
+          └ None
+
+TypeError: 'NoneType' object is not callable
+2022-08-21 10:33:34 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (24712), thread 'MainThread' (23648):
+Traceback (most recent call last):
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 65, in <module>
+    main()
+    └ <function main at 0x000002412CBC3D30>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 46, in main
+    res = model(frame)
+          │     └ array([[[225, 221, 215],
+          │               [225, 221, 215],
+          │               [225, 221, 215],
+          │               ...,
+          │               [210, 213, 220],
+          │               [210...
+          └ None
+
+TypeError: 'NoneType' object is not callable
+2022-08-21 10:34:05 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (28264), thread 'MainThread' (25376):
+Traceback (most recent call last):
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 65, in <module>
+    main()
+    └ <function main at 0x0000023DAE463D30>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 46, in main
+    res = model(frame)
+          │     └ array([[[225, 221, 215],
+          │               [225, 221, 215],
+          │               [225, 221, 215],
+          │               ...,
+          │               [210, 213, 220],
+          │               [210...
+          └ None
+
+TypeError: 'NoneType' object is not callable

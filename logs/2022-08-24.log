@@ -1,0 +1,126 @@
+2022-08-24 10:42:01 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (20464), thread 'MainThread' (1508):
+Traceback (most recent call last):
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 65, in <module>
+    main()
+    └ <function main at 0x000001442FD6F0D0>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 46, in main
+    res = model(frame)
+          │     └ array([[[ 65,  80,  56],
+          │               [ 60,  75,  51],
+          │               [ 50,  63,  47],
+          │               ...,
+          │               [ 79,  94,  59],
+          │               [ 68...
+          └ None
+
+TypeError: 'NoneType' object is not callable
+2022-08-24 11:17:57 | ERROR | An error has been caught in function 'main', process 'MainProcess' (2904), thread 'MainThread' (4000):
+Traceback (most recent call last):
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 67, in <module>
+    main()
+    └ <function main at 0x0000022DAE6300D0>
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 39, in main
+    model = get_model()
+            └ <function get_model at 0x0000022DAE6210D0>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 24, in get_model
+    model = torch.load('./yolov7/models/yolo.py', 'custom', config['weights_path'])
+            │     │                                         └ {'tracking_classes': [0, 1, 2, 3], 'tracking_colors': [[255, 0, 0], [0, 255, 0], [0, 0, 255], [255, 255, 0]], 'tracker_params...
+            │     └ <function load at 0x0000022D33ADF4C0>
+            └ <module 'torch' from 'C:\\Users\\salhail\\Anaconda3\\lib\\site-packages\\torch\\__init__.py'>
+
+  File "C:\Users\salhail\Anaconda3\lib\site-packages\torch\serialization.py", line 589, in load
+    _check_dill_version(pickle_module)
+    │                   └ 'weights/best.pt'
+    └ <function _check_dill_version at 0x0000022D33ADF280>
+
+  File "C:\Users\salhail\Anaconda3\lib\site-packages\torch\serialization.py", line 322, in _check_dill_version
+    if pickle_module.__name__ == 'dill':
+       └ 'weights/best.pt'
+
+AttributeError: 'str' object has no attribute '__name__'
+2022-08-24 11:17:57 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (2904), thread 'MainThread' (4000):
+Traceback (most recent call last):
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 67, in <module>
+    main()
+    └ <function main at 0x0000022DAE6300D0>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 48, in main
+    res = model(frame)
+          │     └ array([[[ 65,  80,  56],
+          │               [ 60,  75,  51],
+          │               [ 50,  63,  47],
+          │               ...,
+          │               [ 79,  94,  59],
+          │               [ 68...
+          └ None
+
+TypeError: 'NoneType' object is not callable
+2022-08-24 11:18:38 | ERROR | An error has been caught in function 'main', process 'MainProcess' (23676), thread 'MainThread' (23832):
+Traceback (most recent call last):
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 67, in <module>
+    main()
+    └ <function main at 0x0000024C2DBC00D0>
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 39, in main
+    model = get_model()
+            └ <function get_model at 0x0000024C2DBB10D0>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 24, in get_model
+    model = torch.load('./yolov7/models/yolo.py', 'custom', config['weights_path'])
+            │     │                                         └ {'tracking_classes': [0, 1, 2, 3], 'tracking_colors': [[255, 0, 0], [0, 255, 0], [0, 0, 255], [255, 255, 0]], 'tracker_params...
+            │     └ <function load at 0x0000024BCB05A4C0>
+            └ <module 'torch' from 'C:\\Users\\salhail\\Anaconda3\\lib\\site-packages\\torch\\__init__.py'>
+
+  File "C:\Users\salhail\Anaconda3\lib\site-packages\torch\serialization.py", line 589, in load
+    _check_dill_version(pickle_module)
+    │                   └ 'weights/best.pt'
+    └ <function _check_dill_version at 0x0000024BCB05A280>
+
+  File "C:\Users\salhail\Anaconda3\lib\site-packages\torch\serialization.py", line 322, in _check_dill_version
+    if pickle_module.__name__ == 'dill':
+       └ 'weights/best.pt'
+
+AttributeError: 'str' object has no attribute '__name__'
+2022-08-24 11:18:38 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (23676), thread 'MainThread' (23832):
+Traceback (most recent call last):
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 67, in <module>
+    main()
+    └ <function main at 0x0000024C2DBC00D0>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 48, in main
+    res = model(frame)
+          │     └ array([[[ 65,  80,  56],
+          │               [ 60,  75,  51],
+          │               [ 50,  63,  47],
+          │               ...,
+          │               [ 79,  94,  59],
+          │               [ 68...
+          └ None
+
+TypeError: 'NoneType' object is not callable
+2022-08-24 11:28:05 | ERROR | An error has been caught in function '<module>', process 'MainProcess' (26544), thread 'MainThread' (26548):
+Traceback (most recent call last):
+
+> File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 65, in <module>
+    main()
+    └ <function main at 0x00000288300A00D0>
+
+  File "c:/Users/salhail/Desktop/Mot/mot/main.py", line 46, in main
+    res = model(frame)
+          │     └ array([[[ 65,  80,  56],
+          │               [ 60,  75,  51],
+          │               [ 50,  63,  47],
+          │               ...,
+          │               [ 79,  94,  59],
+          │               [ 68...
+          └ None
+
+TypeError: 'NoneType' object is not callable
